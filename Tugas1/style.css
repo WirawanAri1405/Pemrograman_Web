@@ -1,0 +1,15 @@
+/* Warna Judul */
+h1{
+    color: blue;
+}
+
+/* Ukuran Gambar */
+img{
+    width:150px;
+    height:150px;
+}
+
+/* background Warna Paragraf */
+.p1{
+    background-color: lightgray;
+}
