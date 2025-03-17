@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.banner img {
+    width: 100%;
+    display: block;
+}
+nav ul {
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    background: #333;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+.container {
+    display: flex;
+}
+.biodata{
+    background-color: aquamarine;
+    flex: 1;
+    padding: 20px;
+} 
+.experience {
+    
+    flex: 1;
+    padding: 20px;   
+}
+.biodata img {
+    max-width: 100%;
+    display: block;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table, th, td {
+    background-color: aquamarine;
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #ddd;
+}
